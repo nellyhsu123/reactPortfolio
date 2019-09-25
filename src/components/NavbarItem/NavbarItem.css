@@ -1,0 +1,11 @@
+.styleNav {
+	padding: 10px;
+	cursor: pointer;
+	border-radius: 20px;
+	color: white !important;
+}
+
+.styleNav:hover {
+	background-color: #45A29E !important;
+	transition: .7s ease;
+}

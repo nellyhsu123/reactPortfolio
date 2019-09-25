@@ -1,0 +1,4 @@
+.changeOnHover:hover {
+	color: #45A29E !important;
+	transition: .7s ease;
+}

@@ -1,0 +1,1 @@
+export const firstOffsetDesign = 'bg-dark text-white text-center p-5'
