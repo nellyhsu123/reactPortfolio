@@ -9,7 +9,7 @@ const intro = () => (
         <div className="row h-100">
           <div className="col-md-12 my-auto text-center text-white">
             <h1>Nelson Hsu</h1>
-            <h2>Welcome To My Website</h2>
+            <h3>Welcome To My Website</h3>
           </div>
         </div>
       </div>

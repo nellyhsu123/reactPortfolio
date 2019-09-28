@@ -10,7 +10,7 @@ const projs = [
     image: PortfolioWebPic,
     imgAlt: 'PortfolioWebsitePic',
     imgDes: 'Portfolio Website',
-    link: 'https://socialape-ce300.firebaseapp.com'
+    link: 'https://thenelsonhsu.com'
   },
   {
     image: SocialApe,
@@ -20,7 +20,7 @@ const projs = [
   },
   {
     image: 'https://picsum.photos/600/300',
-    imgAlt: 'randomImage2',
+    imgAlt: 'randomImage',
     imgDes: 'Coming Soon...',
     link: 'https://socialape-ce300.firebaseapp.com'
   }
