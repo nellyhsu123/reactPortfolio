@@ -9,13 +9,20 @@ const projs = [
   {
     image: PortfolioWebPic,
     imgAlt: 'PortfolioWebsitePic',
-    imgDes: 'Portfolio Website'
+    imgDes: 'Portfolio Website',
+    link: 'https://socialape-ce300.firebaseapp.com'
   },
-  { image: SocialApe, imgAlt: 'SocialApe', imgDes: 'Social Ape' },
+  {
+    image: SocialApe,
+    imgAlt: 'SocialApe',
+    imgDes: 'Social Ape',
+    link: 'https://socialape-ce300.firebaseapp.com'
+  },
   {
     image: 'https://picsum.photos/600/300',
     imgAlt: 'randomImage2',
-    imgDes: 'Coming Soon...'
+    imgDes: 'Coming Soon...',
+    link: 'https://socialape-ce300.firebaseapp.com'
   }
 ];
 
@@ -28,6 +35,7 @@ const projectGallery = () => (
             imgSrc={proj.image}
             imgAlt={proj.imgAlt}
             imgDes={proj.imgDes}
+            link={proj.link}
           />
         </div>
       ))}
