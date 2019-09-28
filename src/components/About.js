@@ -10,7 +10,7 @@ const secId = 'about';
 const about = () => (
   <Section design={firstOffsetDesign} sectionId={secId}>
     <div className="col-md-12">
-      <H1>Nelson Hsu</H1>
+      <H1>React Developer</H1>
       <p>{aboutDescription}</p>
     </div>
   </Section>
