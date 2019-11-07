@@ -17,12 +17,6 @@ const projs = [
     imgAlt: 'SocialApe',
     imgDes: 'Social Ape',
     link: 'https://socialape-ce300.firebaseapp.com'
-  },
-  {
-    image: 'https://picsum.photos/600/300',
-    imgAlt: 'randomImage',
-    imgDes: 'Coming Soon...',
-    link: 'https://socialape-ce300.firebaseapp.com'
   }
 ];
 
@@ -30,7 +24,7 @@ const projectGallery = () => (
   <div className="container-fluid p-0">
     <div className="row no-gutters">
       {projs.map(proj => (
-        <div key={proj.imgDes} className="col-lg-4">
+        <div key={proj.imgDes} className="col-lg-6">
           <Project
             imgSrc={proj.image}
             imgAlt={proj.imgAlt}
